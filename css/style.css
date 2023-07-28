@@ -189,8 +189,12 @@ body {
 	padding-bottom: 5rem;
 }
 
-.gallery img:hover {
+.gallery img {
 	filter: sepia(50%);
+}
+
+.gallery img:hover {
+	filter: none;
 }
 
 .story {
